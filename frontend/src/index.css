@@ -1,0 +1,213 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+
+
+@media screen and (min-resolution: 120dpi) { 
+  body {zoom: 1;}
+  }
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+.student {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+.student-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+
+}
+.student-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.student-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.student-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+/* new workout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+/* navbar */
+nav {
+  display: flex;
+
+}
+nav a {
+  margin-left: 10px;
+}
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+  padding-top: 4px ;
+  margin-left: 5px;
+}
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+.Wait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: #000000;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8em;
+  color: #000000;
+  margin-top: 100px;
+}
+
+/* Home */
+.Home{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border-bottom: 1px  solid #ddd;
+  
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.des{
+  margin-top: 150px;
+  margin-left: 70px;
+  width: 350px;
+}
+.try{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+h1.App-title{
+  font-size: 3em;
+  color: #000000;
+  font-family: "Helvetica";
+}
+
+/* Room Details */
+
+.inputSuccess{
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+/* Room Form */
+
+.room-form{
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+select{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
